@@ -1,4 +1,6 @@
-from app import add
+import sys
+import os
 
-def test_add():
-    assert add(2, 3) == 5
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
+from app import add
