@@ -1,2 +1,2 @@
-print("Hello GitHub!")
-print("Updated")
+def add(a, b):
+    return a + b
